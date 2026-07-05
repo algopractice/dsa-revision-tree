@@ -1,5 +1,6 @@
 {
   "brand": "DSA Revision Tree",
+  "description": "My pattern-based interview revision vault",
   "search": {
     "placeholder": "Search Patterns (Sliding Window, DP...)"
   }
