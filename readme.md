@@ -19,3 +19,4 @@ Analyze your problem's inputs, data structures, and constraints to isolate the o
 * **Primary Implementation Engine:** Java (OpenJDK 21+)
 * **Interactive Prototyping:** Jupyter Lab with Java Kernel / IntelliJ Scratchpads
 * **Target Metric:** Optimize $O(n^2) $ naive approaches down to $O(n) $ or $O(\log n) $ performance.
+* Testing
