@@ -1,6 +1,6 @@
 {
   "brand": "DSA Revision Tree",
-  "description": "My pattern-based interview revision vault",
+  "url": "https://github.io",
   "search": {
     "placeholder": "Search Patterns (Sliding Window, DP...)"
   }

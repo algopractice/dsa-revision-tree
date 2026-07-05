@@ -1,10 +1,17 @@
 # 🧩 DSA Pattern Recognition Tree
-Analyze your problem's inputs and constraints to isolate the optimal pattern structure.
+Analyze your problem's inputs, data structures, and constraints to isolate the optimal algorithmic execution pattern.
 
-### 🔍 Step 1: Identify Your Constraints
+### 🔍 Step 1: Diagnose the Input Constraints
+Select a pattern category below to drill down into optimization strategies, template logic, and interactive Java code annotations.
 
-[!card signal title="Is the Input Sorted?" text="Are you searching for pairs or subarrays inside an ordered set?" icon="list-ordered" link="./sorted-arrays.md"]
+::: cards
+[!card signal title="1. Two-Pointer Approach" text="Use when the input array is sorted and you need to find pairs, triplets, or target sums in linear time." icon="list-ordered" link="./patterns/two-pointer.md"]
 
-[!card signal title="Are You Finding Combinations?" text="Do you need to search all paths, pick choices, or backtrack?" icon="git-branch" link="./backtracking.md"]
+[!card signal title="2. Sliding Window Pattern" text="Use when dealing with contiguous subarrays or substrings to track running states without nested loops." icon="iterations" link="./patterns/sliding-window.md"]
+:::
 
-[!card signal title="Is There Overlapping Subproblems?" text="Can the problem be broken down into identical, repeating sub-steps?" icon="cpu" link="./dynamic-programming.md"]
+---
+### 💻 Active Revision Sandbox Environment
+* **Primary Implementation Engine:** Java (OpenJDK 21+)
+* **Interactive Prototyping:** Jupyter Lab with Java Kernel / IntelliJ Scratchpads
+* **Target Metric:** Optimize $O(n^2)$ naive approaches down to $O(n)$ or $O(\log n)$ performance.
