@@ -3,7 +3,7 @@ Analyze your problem's inputs, data structures, and constraints to isolate the o
 
 ### 🔍 Step 1: Diagnose the Input Constraints
 
-::: cards
+::: cards  
 [!card title="1. Two-Pointer Approach" text="Use when the input array is sorted and you need to find pairs, triplets, or target sums in linear time." icon="list-ordered" link="./patterns/two-pointer.md"]
 
 [!card title="2. Sliding Window Pattern" text="Use when dealing with contiguous subarrays or substrings to track running states without nested loops." icon="iterations" link="./patterns/sliding-window.md"]
