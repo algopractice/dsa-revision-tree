@@ -2,7 +2,6 @@
 Analyze your problem's inputs, data structures, and constraints to isolate the optimal algorithmic execution pattern.
 
 ### 🔍 Step 1: Diagnose the Input Constraints
-Select a pattern category below to drill down into optimization strategies, template logic, and interactive Java code annotations.
 
 ::: cards
 [!card title="1. Two-Pointer Approach" text="Use when the input array is sorted and you need to find pairs, triplets, or target sums in linear time." icon="list-ordered" link="./patterns/two-pointer.md"]
