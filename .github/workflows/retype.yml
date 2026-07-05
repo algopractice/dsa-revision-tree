@@ -4,16 +4,31 @@ on:
     branches: [ main, master ]
 
 permissions:
-  contents: write # Ensure permission layers remain unlocked
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.1.7
 
       - name: Build website
-        uses: retypeapp/action-build@latest # The compiler block
+        uses: retypeapp/action-build@latest
 
-      - name: Publish to GitHub Pages
-        uses: retypeapp/action-github-pages@latest # The publisher block
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'output'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
