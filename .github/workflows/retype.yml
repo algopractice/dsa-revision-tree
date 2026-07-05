@@ -1,0 +1,10 @@
+name: Publish Retype Docs
+on:
+  push:
+    branches: [ main, master ]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: retypeapp/action@v4
