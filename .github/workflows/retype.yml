@@ -12,14 +12,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4.2.2 # Clears checkout warning
         with:
-          fetch-depth: 0 # Required for tracking file history metadata
+          fetch-depth: 0
 
       - name: Build website
-        uses: retypeapp/action-build@latest
+        uses: retypeapp/action-build@v4.7.0 # Explicitly pinned runtime
 
       - name: Publish to Branch
-        uses: retypeapp/action-github-pages@latest
+        uses: retypeapp/action-github-pages@v4.7.0 # Explicitly pinned runtime
         with:
           update-branch: true
