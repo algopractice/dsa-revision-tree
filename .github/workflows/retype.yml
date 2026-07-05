@@ -2,9 +2,18 @@ name: Publish Retype Docs
 on:
   push:
     branches: [ main, master ]
+
+permissions:
+  contents: write # Ensure permission layers remain unlocked
+
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: retypeapp/action@v4
+
+      - name: Build website
+        uses: retypeapp/action-build@latest # The compiler block
+
+      - name: Publish to GitHub Pages
+        uses: retypeapp/action-github-pages@latest # The publisher block
