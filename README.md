@@ -121,14 +121,21 @@ public class MultiStageRunner {
 
 # Signal layout
 
-::: cards cols=4
+::: cards 
 [!card layout="signal" title="1. Two-Pointer" text="Sorted linear inputs." icon="list-ordered"](./patterns/two-pointer.md)
-
 [!card layout="signal" title="2. Sliding Window" text="Contiguous sub-segments." icon="iterations"](./patterns/sliding-window.md)
-
 [!card layout="signal" title="3. Backtracking" text="Exhaustive tree search paths." icon="git-branch"](./patterns/backtracking.md)
-
 [!card layout="signal" title="4. Dynamic Prog." text="Overlapping subproblems." icon="cpu"](./patterns/dp.md)
-
 [!card layout="signal" title="5. Cards." text="Cards layout" icon="cpu"](./patterns/layout-test.md)
 :::
+
+--------------
+
+::: cards 
+[!card layout="signal" text="Install Retype in seconds using npm, yarn, or dotnet"](/guides/installation.md)
+[!card layout="signal" title="Quick Start" text="Get your first Retype site running in minutes"](/guides/getting-started.md)
+[!card layout="signal" title="CLI Reference" text="All commands, flags, and options for the Retype CLI"](/guides/cli.md)
+[!card layout="signal" icon="gear" title="Configuration" text="Customize your site with the retype.yml project file"](/configuration/project.md)
+[!card layout="signal" text="Enrich your content with tabs, callouts, cards, and more"](/components/components.md)
+[!card layout="signal" icon="server" title="Hosting" text="Deploy your site to GitHub Pages, Netlify, Cloudflare, and more"](/hosting/github-pages.md)
+:::  
