@@ -90,7 +90,7 @@ retype watch
 [!card vert title="16. DP: Strings" text="Edit distance transitions." icon="cpu"](patterns/dp.md)
 +++
 
-```java [6-7, 10-12]
+```java #6-7,10-12
 public class MultiStageRunner {
     public static void main(String[] args) {
         System.out.println("Initializing Production Quality Gates...");
@@ -131,7 +131,7 @@ public class MultiStageRunner {
 
 --------------
 
-::: cards 
+::: cards cols=2
 [!card layout="signal" text="Install Retype in seconds using npm, yarn, or dotnet"](/guides/installation.md)
 [!card layout="signal" title="Quick Start" text="Get your first Retype site running in minutes"](/guides/getting-started.md)
 [!card layout="signal" title="CLI Reference" text="All commands, flags, and options for the Retype CLI"](/guides/cli.md)
