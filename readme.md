@@ -12,7 +12,7 @@ Analyze your problem's inputs, data structures, and constraints to isolate the o
 
 [!card title="4. Dynamic Prog." text="Overlapping subproblems." icon="cpu"](./patterns/dp.md)
 
-[!card title="5. Cards." text="Cards layout" icon="cpu"](./layout-comparison.md)
+[!card title="5. Cards." text="Cards layout" icon="cpu"](./patterns/layout-test.md)
 :::
 
 ---------
@@ -60,7 +60,7 @@ retype watch
 
 [!card title="4. Dynamic Prog." text="Overlapping subproblems." icon="cpu" layout="compact"](./patterns/dp.md)
 
-[!card title="5. Cards." text="Cards layout" icon="cpu" layout="compact"](./layout-comparison.md)
+[!card title="5. Cards." text="Cards layout" icon="cpu" layout="compact"](./patterns/layout-test.md)
 :::
 
 ----
@@ -87,8 +87,7 @@ retype watch
 [!card vert title="16. DP: Strings" text="Edit distance transitions." icon="cpu"](patterns/dp.md)
 +++
 
-```
-java [6-7, 10-12]
+```java [6-7, 10-12]
 public class MultiStageRunner {
     public static void main(String[] args) {
         System.out.println("Initializing Production Quality Gates...");
@@ -114,3 +113,17 @@ public class MultiStageRunner {
 [!card layout="signal" icon="gear" title="Configuration" text="Customize your site with the retype.yml project file"](/configuration/project.md)
 [!card layout="signal" text="Enrich your content with tabs, callouts, cards, and more"](/components/components.md)
 [!card layout="signal" icon="server" title="Hosting" text="Deploy your site to GitHub Pages, Netlify, Cloudflare, and more"](/hosting/github-pages.md)
+
+# Signal layout
+
+::: cards cols=4
+[!card layout="signal" title="1. Two-Pointer" text="Sorted linear inputs." icon="list-ordered"](./patterns/two-pointer.md)
+
+[!card layout="signal" title="2. Sliding Window" text="Contiguous sub-segments." icon="iterations"](./patterns/sliding-window.md)
+
+[!card layout="signal" title="3. Backtracking" text="Exhaustive tree search paths." icon="git-branch"](./patterns/backtracking.md)
+
+[!card layout="signal" title="4. Dynamic Prog." text="Overlapping subproblems." icon="cpu"](./patterns/dp.md)
+
+[!card layout="signal" title="5. Cards." text="Cards layout" icon="cpu"](./patterns/layout-test.md)
+:::
