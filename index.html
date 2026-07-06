@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.836606716354">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.836617069484">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -37,11 +37,12 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="resources/css/retype.css?v=4.6.0.836606716354" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.6.0.836617069484" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.836606716354" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.836617069484" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.836606716354" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.836617069484" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="resources/js/prism.js?v=4.6.0.836617069484" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -178,6 +179,16 @@
     </a>
 </div>
 </p>
+<p>
+<div class="card-container">
+    <a href="./layout-comparison.md" class="group card no-link">
+        <div class="p-card-padding">
+            <div class="mt-2 text-card-title font-card-title leading-card-title text-card-title-text md:text-card-title-md">5. Cards.</div>
+            <div class="line-clamp-7"><p class="mt-card-description-margin-top text-card-description-text">Cards layout</p></div>
+        </div>
+    </a>
+</div>
+</p>
 </div>
 <hr>
 <h3 id="-active-revision-sandbox-environment"><span class="docs-emoji">&#x1F4BB;</span> Active Revision Sandbox Environment</h3>
@@ -187,6 +198,108 @@
 <li><strong>Target Metric:</strong> Optimize $O(n^2) $ naive approaches down to $O(n) $ or $O(\log n) $ performance.</li>
 <li>Testing</li>
 </ul>
+<h1 id="-dsa-revision-tree--architecture-portfolio"><span class="docs-emoji">&#x1F333;</span> DSA Revision Tree &amp; Architecture Portfolio</h1>
+<p>A production-grade algorithmic revision framework compiled via Retype and automated via GitHub Actions pipelines.</p>
+<h2 id="-repository-architecture-directory"><span class="docs-emoji">&#x1F5C2;&#xFE0F;</span> Repository Architecture Directory</h2>
+<h3 id="-automation-pipelines"><span class="docs-emoji">&#x1F680;</span> Automation Pipelines</h3>
+<ul>
+<li><code translate="no" v-pre>.github/workflows/pipeline.yml</code> — Production CI/CD infrastructure.</li>
+<li><code translate="no" v-pre>.github/workflows/release.yml</code> — Automated release logging.</li>
+</ul>
+<h3 id="-component-framework-guides"><span class="docs-emoji">&#x1F4D0;</span> Component Framework Guides</h3>
+<ul>
+<li><code translate="no" v-pre>layout-comparison.md</code> — Visual testing ground for all 5 Retype layouts.</li>
+<li><code translate="no" v-pre>.retype/card-layouts-reference.md</code> — Complete Retype UI reference manual.</li>
+</ul>
+<h3 id="-algorithmic-tracks"><span class="docs-emoji">&#x1F4DD;</span> Algorithmic Tracks</h3>
+<ul>
+<li><code translate="no" v-pre>./patterns/two-pointer.md</code> — Linear input tracking systems.</li>
+<li><code translate="no" v-pre>./patterns/sliding-window.md</code> — Contiguous sub-segment analysis.</li>
+<li><code translate="no" v-pre>./patterns/backtracking.md</code> — Exhaustive state-space tree searching.</li>
+<li><code translate="no" v-pre>./patterns/dp.md</code> — Overlapping subproblem state optimization.</li>
+</ul>
+<h2 id="-local-environment-workspace-verification"><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span> Local Environment Workspace Verification</h2>
+<p>To preview this dashboard system locally on your laptop, execute:</p>
+<div id="-local-environment-workspace-verification-code-1" class="codeblock-wrapper"><doc-codeblock>
+<pre translate="no" class="language-bash"><code v-pre class="language-bash">retype watch</code></pre>
+</doc-codeblock></div>
+<hr>
+<div class="cards"><p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="patterns/two-pointer/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M3.604 3.089A.75.75 0 0 1 4 3.75V8.5h.75a.75.75 0 0 1 0 1.5h-3a.75.75 0 1 1 0-1.5h.75V5.151l-.334.223a.75.75 0 0 1-.832-1.248l1.5-1a.75.75 0 0 1 .77-.037ZM8.75 5.5a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75Zm0 6a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75Zm0 6a.75.75 0 0 0 0 1.5h11.5a.75.75 0 0 0 0-1.5H8.75ZM5.5 15.75c0-.704-.271-1.286-.72-1.686a2.302 2.302 0 0 0-1.53-.564c-.535 0-1.094.178-1.53.565-.449.399-.72.982-.72 1.685a.75.75 0 0 0 1.5 0c0-.296.104-.464.217-.564A.805.805 0 0 1 3.25 15c.215 0 .406.072.533.185.113.101.217.268.217.565 0 .332-.069.48-.21.657-.092.113-.216.24-.403.419l-.147.14c-.152.144-.33.313-.52.504l-1.5 1.5a.75.75 0 0 0-.22.53v.25c0 .414.336.75.75.75H5A.75.75 0 0 0 5 19H3.31l.47-.47c.176-.176.333-.324.48-.465l.165-.156a5.98 5.98 0 0 0 .536-.566c.358-.447.539-.925.539-1.593Z"/></svg></span>
+                <span class="card-compact-title">1. Two-Pointer</span>
+            </div>
+            <p class="card-compact-description">Sorted linear inputs.</p>
+        </div>
+    </a>
+</div>
+</div>
+</p>
+<p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="patterns/sliding-window/" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M2.5 10.5a8 8 0 1 1 16 0 .75.75 0 0 0 1.5 0 9.5 9.5 0 1 0-9.5 9.5h10.94l-2.72 2.72a.75.75 0 1 0 1.06 1.06l3.735-3.735c.44-.439.44-1.151 0-1.59L19.78 14.72a.75.75 0 0 0-1.06 1.06l2.72 2.72H10.5a8 8 0 0 1-8-8Z"/></svg></span>
+                <span class="card-compact-title">2. Sliding Window</span>
+            </div>
+            <p class="card-compact-description">Contiguous sub-segments.</p>
+        </div>
+    </a>
+</div>
+</div>
+</p>
+<p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="./patterns/backtracking.md" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M15 4.75a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM2.5 19.25a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0Zm0-14.5a3.25 3.25 0 1 1 6.5 0 3.25 3.25 0 0 1-6.5 0ZM5.75 6.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 6.5Zm0 14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 5.75 21Zm12.5-14.5a1.75 1.75 0 1 0-.001-3.501A1.75 1.75 0 0 0 18.25 6.5Z"/><path d="M5.75 16.75A.75.75 0 0 1 5 16V8a.75.75 0 0 1 1.5 0v8a.75.75 0 0 1-.75.75Z"/><path d="M17.5 8.75v-1H19v1a3.75 3.75 0 0 1-3.75 3.75h-7a1.75 1.75 0 0 0-1.75 1.75H5A3.25 3.25 0 0 1 8.25 11h7a2.25 2.25 0 0 0 2.25-2.25Z"/></svg></span>
+                <span class="card-compact-title">3. Backtracking</span>
+            </div>
+            <p class="card-compact-description">Exhaustive tree search paths.</p>
+        </div>
+    </a>
+</div>
+</div>
+</p>
+<p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="./patterns/dp.md" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8Zm.75 6.5h5v-5h-5Z"/><path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75Zm3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"/></svg></span>
+                <span class="card-compact-title">4. Dynamic Prog.</span>
+            </div>
+            <p class="card-compact-description">Overlapping subproblems.</p>
+        </div>
+    </a>
+</div>
+</div>
+</p>
+<p>
+<div class="card-compact-group">
+<div class="card-compact-container">
+    <a href="./layout-comparison.md" class="group card-compact no-link">
+        <div class="card-compact-body">
+            <div class="card-compact-header">
+                <span class="card-compact-icon inline-flex shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><!--icon--><path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8Zm.75 6.5h5v-5h-5Z"/><path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75Zm3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"/></svg></span>
+                <span class="card-compact-title">5. Cards.</span>
+            </div>
+            <p class="card-compact-description">Cards layout</p>
+        </div>
+    </a>
+</div>
+</div>
+</p>
+</div>
 
                 
                 <!-- Required only on API pages -->
@@ -246,6 +359,6 @@
 
     <div id="retype-overlay-target"></div>
 
-        <script data-cfasync="false">window.__DOCS__ = { "title": "🧩 DSA Pattern Recognition Tree", isRoot: true, level: 0, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/readme.md" }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "🧩 DSA Pattern Recognition Tree", isRoot: true, level: 0, icon: "file", hasPrism: true, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/readme.md" }</script>
 </body>
 </html>

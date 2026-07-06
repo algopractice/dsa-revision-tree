@@ -3,6 +3,7 @@
 > Analyze your problem's inputs, data structures, and constraints to isolate the optimal algorithmic execution pattern.
 
 - [🧩 DSA Pattern Recognition Tree](https://github.io/readme.md): 🧩 DSA Pattern Recognition Tree
+- [🎛️ Retype Layout Comparison Suite](https://github.io/layout-test.md): This page displays all five card layout variations available in the Retype framework.
 
 ## Patterns
 
