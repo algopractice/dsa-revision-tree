@@ -63,3 +63,47 @@ retype watch
 
 [!card title="5. Cards." text="Cards layout" icon="cpu" layout="compact"](./layout-comparison.md)
 :::
+
+
+----
+
+
++++ 🎛️ Algorithmic Master Grid
+[!card vert title="1. Two-Pointer: Basics" text="Opposites-converge templates." icon="number-list"](patterns/two-pointer.md)
+[!card vert title="2. Sliding Window: Fixed" text="Static boundary tracking." icon="sync"](patterns/sliding-window.md)
+[!card vert title="3. Backtracking: Subsets" text="Combinatorial choices." icon="git-branch"](patterns/backtracking.md)
+[!card vert title="4. DP: 1D Arrays" text="Linear memoization." icon="cpu"](patterns/dp.md)
+
+[!card vert title="5. Two-Pointer: Slow/Fast" text="Cycle detection systems." icon="number-list"](patterns/two-pointer.md)
+[!card vert title="6. Sliding Window: Dynamic" text="Variable-length segments." icon="sync"](patterns/sliding-window.md)
+[!card vert title="7. Backtracking: Permute" text="State-space reordering." icon="git-branch"](patterns/backtracking.md)
+[!card vert title="8. DP: Knapsack" text="Bounded resource choices." icon="cpu"](patterns/dp.md)
+
+[!card vert title="9. Two-Pointer: Trapping" text="Complex boundary constraints." icon="number-list"](patterns/two-pointer.md)
+[!card vert title="10. Sliding Window: Count" text="Sub-array tracking metrics." icon="sync"](patterns/sliding-window.md)
+[!card vert title="11. Backtracking: N-Queens" text="Pruning constraint trees." icon="git-branch"](patterns/backtracking.md)
+[!card vert title="12. DP: Grid Systems" text="Matrix navigation loops." icon="cpu"](patterns/dp.md)
+
+[!card vert title="13. Two-Pointer: Intervals" text="Merging disjoint input spans." icon="number-list"](patterns/two-pointer.md)
+[!card vert title="14. Sliding Window: Minimum" text="Substring optimization loops." icon="sync"](patterns/sliding-window.md)
+[!card vert title="15. Backtracking: Regex" text="String parsing graph routes." icon="git-branch"](patterns/backtracking.md)
+[!card vert title="16. DP: Strings" text="Edit distance transitions." icon="cpu"](patterns/dp.md)
++++
+
+
+java [6-7, 10-12]
+public class MultiStageRunner {
+    public static void main(String[] args) {
+        System.out.println("Initializing Production Quality Gates...");
+        
+        // 1. Core integration check executed here
+        CodeQualityEngine engine = new CodeQualityEngine();
+        engine.executeStaticAnalysis("dsa-tree", (id, passed, details) -> {
+            
+            // 2. The asynchronous callback executes inside this decoupled lambda
+            if (passed) {
+                System.out.println("🚚 Target passed Quality Gate. Triggering CD!");
+            }
+        });
+    }
+}
